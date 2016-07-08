@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>React Flux Boiler</title>
+  <!-- Bootstrap Core CSS -->
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+  <link href="/dist/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="app"><%- html %></div>
+  <script id="initialState" type="application/json"><%-initialState%></script>
+
+  
+  <script src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
+
+
+  <!-- THIS IS FOR PRODUCTION -->
+  <!--<script src="../js/client.min.js"></script>-->
+
+
+  <!-- THIS IS FOR DEVELOPMENT - SUPPLIED BY WEBPACK DEV SERVER -->
+  <script src="http://localhost:8080/client.min.js"></script>
+
+ 
+
+</body>
+
+</html>
